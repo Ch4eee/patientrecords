@@ -1,4 +1,4 @@
-<div style="  height: 760vh; overflow: hidden;">
+<div style="  height: 800vh; overflow: hidden;">
     <div class="align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800 text-center">Student Records</h1>
     </div>
@@ -67,16 +67,16 @@
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                 <h6 class="m-0 font-weight-bold text-primary">School Health Examination<h6>
                         <?php echo "<a style='margin-left: 390px; 
-                    data-toggle='tooltip' title='Back To Patient Record' text-decoration:none;' class='text-secondary' href='". base_url() ."admissioncontrol/patientdataview/". $get_findings_view->pr_id ."#findings'>" ?>
+                    data-toggle='tooltip' title='Back To Student Record' text-decoration:none;' class='text-secondary' href='". base_url() ."admissioncontrol/patientdataview/". $get_findings_view->pr_id ."#findings'>" ?>
                         <i class="fa 
                                     fa-arrow-left"></i></a>
                         <?php echo "<a 
                     data-toggle='tooltip' title='Edit' style='margin-left: 30px; text-decoration:none;' class='text-secondary' href='". base_url() ."admissioncontrol/edit_findings/". $get_findings_view->findings_id ."#findings'>" ?>
                         <i class="fa 
                                     fa-edit"></i></a>
-                        <?php echo "<a data-toggle='tooltip' title='Add Record to Teacher Account' style='margin-left: 30px; text-decoration:none;' class='text-secondary' href='". base_url() ."admissioncontrol/addfindingsdataview/". $get_findings_view->findings_id ."#findings'>" ?>
+                        <?php echo "<a data-toggle='tooltip' title='Send to Teacher' style='margin-left: 30px; text-decoration:none;' class='text-secondary' href='". base_url() ."admissioncontrol/addfindingsdataview/". $get_findings_view->findings_id ."#findings'>" ?>
                         <i class="fa 
-                                    fa-user-md"></i></a>
+                                    fa-users"></i></a>
                         <a data-toggle='tooltip' title='Print Summary' style='margin-left: 20px; margin-right: 21px;'
                             class="btn_print text-secondary"><i class="fa 
                                     fa-print"></i></a>
@@ -1988,7 +1988,7 @@
                     <h6 class="ml-3 mb-0 font-weight-bold text-primary">REFERENCES</h6>
                 </div>
 
-                <div class="row">
+                <div class="row mb-5" style="margin-bottom:500%;">
                     <div class="col-sm-8">
                         <h6 class="mt-5 font-weight-bold" style="margin-left:25%; margin-bottom:3%;">Symbols for Mouth
                             Examination</h6>
@@ -2037,11 +2037,46 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
                 <!-- begin summary -->
 
 
                 <div class="card-header py-3 mb-4  mt-5 d-flex flex-row align-items-center justify-content-between"
-                    style="text-align:center;">
+                    style="text-align:center; margin-top:100%;">
                     <h6 class="ml-3 mb-0 font-weight-bold text-primary">SUMMARY REPORT</h6>
                 </div>
 
